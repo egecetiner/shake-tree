@@ -1,0 +1,123 @@
+.appleImg4,
+.appleImg5,
+.appleImg6,
+.appleImg7,
+.appleImg3 {
+  width: 3%;
+  position: absolute;
+}
+
+.appleImg1 {
+  width: 3%;
+  position: absolute;
+  left: 18%;
+  top: 28%;
+}
+
+.appleImg2 {
+  width: 3%;
+  position: absolute;
+  left: 26%;
+  top: 31%;
+}
+
+.appleImg4 {
+  left: 8%;
+  margin-left: 12%;
+  top: 35%;
+}
+
+.appleImg5 {
+  left: 10%;
+  margin-left: 15%;
+  top: 22%;
+}
+
+.appleImg6 {
+  left: 12%;
+  margin-left: 18%;
+  top: 37%;
+}
+
+.appleImg7 {
+  left: 14%;
+  margin-left: 21%;
+  top: 40%;
+}
+
+.appleImg3 {
+  top: 40%;
+  left: 13%;
+}
+
+.fallAppl1 {
+  -webkit-animation: fall 1s linear;
+  animation: fall 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.fallAppl2 {
+  -webkit-animation: fall 2s linear;
+  animation: fall 2s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.fallAppl3 {
+  -webkit-animation: fall 3s linear;
+  animation: fall 3s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.shakeAppl {
+  -webkit-animation: shakeApple 2s infinite;
+  animation: shakeApple 2s infinite;
+}
+
+@-webkit-keyframes fall {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateY(1000%);
+    transform: translateY(1000%);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: translateY(970%);
+    transform: translateY(970%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000%);
+    transform: translateY(1000%);
+    opacity: 0;
+  }
+}
+
+@keyframes fall {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateY(1000%);
+    transform: translateY(1000%);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: translateY(970%);
+    transform: translateY(970%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000%);
+    transform: translateY(1000%);
+    opacity: 0;
+  }
+}
